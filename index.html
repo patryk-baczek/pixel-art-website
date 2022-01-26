@@ -5,11 +5,11 @@
     <head>
     <meta charset="utf_8"/>
     <title>Pixel art</title>
-    
-    
-    
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome,opera gx,fire fox=1" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    
     <style>
+    
     #container
     {   background-color: aquamarine;
         width: 1000px;
@@ -38,7 +38,8 @@
 
     #logo-text
     {
-        padding: 13px;   
+        padding: 13px;
+        color: rgb(216, 185, 45);    
     }
 
     #nav
@@ -46,7 +47,7 @@
         background-color: aqua;
        padding: 10px;
        float: left;
-       width: 80px;
+       width: 105px;
        height: 150px;
 
     }
@@ -57,7 +58,7 @@
         color: white;
         padding: 10px;
         float: left;
-        width: 880px;
+        width: 855px;
         height: 150px;
     }
 
@@ -72,6 +73,10 @@
 
     .pixel-image
     { 
+        background-repeat: no-repeat;  
+        background-attachment: scroll;  
+        background-position: 0% 0%;
+        background-size: contain;
         text-align: center;
         color: white;
            width: 33.333333333333333%; 
@@ -79,65 +84,64 @@
           float: left;
     }     
           
-          
+    .icon-gold 
+    {
+        color: rgb(216, 185, 45);        
+    }
+
     #pixel-gallery
     {
         clear:both;
+        background-color: white;
+        height: 300px;
     }  
      #image1
      {
-      background-color: rgb(24, 35, 44);
+        background-image: url("img/statki_kosmiczne.png");
      }
 
      #image2
      {
-      background-color: rgb(0, 136, 255);
+        background-image: url("img/png.png");
      }
      #image3
      {
-      background-color: rgb(0, 62, 117);
+        background-image: url("img/typek.png");
      }
 
      #image4
      {
-      background-color: rgb(1, 18, 34);
+        background-image: url("img/abstrakcja.png");
      }
 
      #image5
      {
-      background-color: rgb(30, 99, 159);
+      background-image: url("img/diabelek.png");
      }
      #image6
      {
-      background-color: rgb(92, 120, 145);
+      background-image: url("img/strona1.png");
      }
 
     
     </style>
-
-
     <head>
     <body>
     <div id="container">
         <div id="logo">
             <div id="logo-image"></div>
             <div id="logo-text">
-                <h1>my pixel art </h1>
+                <h1> <i class="fas fa-star-half-alt"></i> my pixel art <i class="fas fa-star-half-alt"></i> </h1>
             </div>
         </div>
         
         <div id="nav">
-            Little folks<br />
-            Landscapes<br />
-            Memes<br />
-         
+            <i class="fas fa-star-half-alt icon-gold"></i>  Little folks<br />
+            <i class="fas fa-star-half-alt icon-gold"></i>  Landscapes<br />
+            <i class="fas fa-star-half-alt icon-gold "></i>  Memes<br />
         </div>
         
         <div id="content">
-       
-
-
-
             Pixel art is a form of digital art, created through the use of software, where images are edited on the pixel level. The aesthetic for this kind of graphics comes from 8-bit and 16-bit computers and video game consoles, in addition to other limited systems such as graphing calculators. In most pixel art, the color palette used is extremely limited in size, with some pixel art using only two colors.
 
 Creating or modifying pixel art characters or objects for video games is sometimes called spriting, a term that arose from the hobbyist community. The term likely came from the term sprite, a term used in computer graphics to describe a two-dimensional bitmap that is used in tandem with other bitmaps to construct a larger scene.
@@ -146,14 +150,14 @@ Creating or modifying pixel art characters or objects for video games is sometim
 
 
         <div id="pixel-gallery">
-            <div class="pixel-image" id="image1">placeholder 1</div>
-            <div class="pixel-image" id="image2">placeholder 2</div> 
-            <div class="pixel-image" id="image3">placeholder 3</div>
-            <div class="pixel-image" id="image4">placeholder 4 </div>
-            <div class="pixel-image" id="image5">placeholder 5</div>
-            <div class="pixel-image" id="image6">placeholder 6</div>
+            <div class="pixel-image" id="image1"></div>
+            <div class="pixel-image" id="image2"></div> 
+            <div class="pixel-image" id="image3"></div>
+            <div class="pixel-image" id="image4"></div>
+            <div class="pixel-image" id="image5"></div>
+            <div class="pixel-image" id="image6"></div>
         </div>       
-      
+        
       
       
       
