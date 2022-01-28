@@ -1,4 +1,3 @@
-
     <!DOCTYPE html>
 
     <html lang=en>
@@ -7,7 +6,7 @@
     <title>Pixel art</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome,opera gx,fire fox=1" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <style>
     
     #container
@@ -39,7 +38,9 @@
     #logo-text
     {
         padding: 13px;
-        color: rgb(216, 185, 45);    
+        color: rgb(231, 191, 10);    
+        font-size: 28px;
+        text-transform: uppercase;
     }
 
     #nav
@@ -61,6 +62,7 @@
         float: left;
         width: 855px;
         height: 150px;
+        font-size: 18px;
     }
 
     #footer
@@ -80,11 +82,32 @@
         background-size: contain;
         text-align: center;
         color: white;
-           width: 33.333333333333333%; 
+        width: 100%; 
           height: 150px;
-          float: left;
-    }     
           
+    }     
+    .pixel-card
+    {
+        width: 33.333333333333333%; 
+          height: 200px;
+          float: left;
+          
+    }
+    .pixel-text
+    {
+        text-align: center;
+        color: aqua;
+        background-color: black;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+    .pixel-text:hover
+    {
+        background-color: aqua;
+        color: black;
+        cursor: pointer;
+    }
+
     .icon-gold 
     {
         color: rgb(216, 185, 45);        
@@ -94,7 +117,7 @@
     {
         clear:both;
         background-color: white;
-        height: 300px;
+        height: 350px;
     }  
      #image1
      {
@@ -123,8 +146,16 @@
      {
       background-image: url("img/strona1.png");
      }
-
-    
+     
+     body
+     {
+        font-family: 'VT323', monospace;
+        
+     }
+    a 
+    {
+     text-decoration: none;   
+    }
     </style>
     <head>
     <body>
@@ -137,9 +168,9 @@
         </div>
         
         <div id="nav">
-             <i class="i class="fas fa-star></i icon-gold ></i> Little folks<br />
-             <i class="i class="fas fa-star></i icon-gold ></i>  Landscapes<br />
-             <i class="i class="fas fa-star></i icon-gold ></i>  Memes<br />
+            <i class="fas fa-arrow-circle-right"></i> Little folks<br />
+            <i class="fas fa-arrow-circle-right"></i> Landscapes<br />
+            <i class="fas fa-arrow-circle-right"></i> Memes<br />
         </div>
         
         <div id="content">
@@ -151,28 +182,40 @@ Creating or modifying pixel art characters or objects for video games is sometim
 
 
         <div id="pixel-gallery">
-            <div class="pixel-image" id="image1"></div>
-            <div class="pixel-image" id="image2"></div> 
-            <div class="pixel-image" id="image3"></div>
-            <div class="pixel-image" id="image4"></div>
-            <div class="pixel-image" id="image5"></div>
-            <div class="pixel-image" id="image6"></div>
+            <div class="pixel-card">
+                <div class="pixel-image" id="image1"></div>
+                <a href="img/statki_kosmiczne.png" download="spaceship"> 
+                    <div class="pixel-text"><i class="fas fa-save"></i> spaceship.png</div>
+                </a>
+            </div>
+            <div class="pixel-card">
+                 <div class="pixel-image" id="image2"></div> 
+                 <div class="pixel-text"><i class="fas fa-save"></i> png.png</div>
+            </div>
+            <div class="pixel-card">
+                <div class="pixel-image" id="image3"></div>
+                <div class="pixel-text"><i class="fas fa-save"></i> fellow.png</div>
+            </div>
+            <div class="pixel-card">
+                <div class="pixel-image" id="image4"></div>
+                <div class="pixel-text"><i class="fas fa-save"></i> abstraction.png</div>
+            </div>
+            <div class="pixel-card">
+                <div class="pixel-image" id="image5"></div> 
+                <div class="pixel-text"><i class="fas fa-save"></i> imp.png</div>
+           </div>
+            <div class="pixel-card">
+                <div class="pixel-image" id="image6"></div> 
+                <div class="pixel-text"><i class="fas fa-save"></i> guy.png</div>
+           </div>
+            
+            
         </div>       
         
-      
-      
-      
         <div id="footer">
             &#169; Patryk Bączek 2022
         </div>
-        
-
+          
     </div>
     </body>
     </html>
-
-
-
-
-
-    </div>
