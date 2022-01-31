@@ -17,19 +17,19 @@
 
 #logo-image
 {
-    background-image: url("img/komenda.jpg");
+    background-image: url("img/komenda.png");
     background-repeat: no-repeat;  
     background-attachment: scroll;  
     background-position: 0% 0%;
     background-size: contain;
-    width: 300px;
-    height: 150px;
+    width: 260px;
+    height: 130px;
 }
 
 #logo-text
 {
     padding: 13px;
-    color: rgb(231, 191, 10);    
+    color: #FF8F00;    
     font-size: 28px;
     text-transform: uppercase;
 }
@@ -70,7 +70,7 @@
     background-repeat: no-repeat;  
     background-attachment: scroll;  
     background-position: 0% 0%;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     color: white;
     width: 100%; 
@@ -79,8 +79,8 @@
 }   
 .pixel-card
 {
-    width: 33.333333333333333%; 
-      height: 200px;
+      width: 33.333333333333333%; 
+      height: auto;
       float: left;
       transition: all .1s ease-in-out;
 }
@@ -117,29 +117,35 @@
 }  
  #image1
  {
+    background-color: #1414ae;
     background-image: url("img/statki_kosmiczne.png");
  }
 
  #image2
  {
+    background-color: #49a444;
     background-image: url("img/png.png");
  }
  #image3
  {
-    background-image: url("img/typek.png");
+    background-color: #9714ae;
+    background-image: url("img/boss.png");
  }
 
  #image4
  {
+    background-color: #010131;
     background-image: url("img/abstrakcja.png");
  }
 
  #image5
  {
+  background-color: #010131;
   background-image: url("img/diabelek.png");
  }
  #image6
  {
+  background-color: #143b3d;
   background-image: url("img/strona1.png");
  }
  
