@@ -160,11 +160,17 @@ a
 
  text-decoration: none;   
 }
-a:visited
-{
-    color: #fff;
+a, a:visited {
+    color: inherit;
 }
 .nav-link
 {
     cursor: pointer; 
 }
+#chest
+{
+    width: 100px;
+    height: 50px;
+    background-color: #FF8F00;
+    cursor: pointer;
+} 
