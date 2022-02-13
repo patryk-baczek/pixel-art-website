@@ -44,7 +44,16 @@
    height: 150px;
    text-transform: capitalize;
 }
-   
+#lottery-content
+{
+    background-color: rgb(14, 71, 71);
+    color: white;
+    padding: 10px;
+    float: left;
+    width: 855px;
+    height: 350px;
+    font-size: 18px;
+}
 #content
 {
     background-color: rgb(14, 71, 71);
@@ -169,8 +178,32 @@ a, a:visited {
 }
 #chest
 {
-    width: 100px;
-    height: 50px;
-    background-color: #FF8F00;
+    width: 140px;
+    height: 160px;
     cursor: pointer;
+    
+    background-image: url('img/chest.png');
+    background-repeat: no-repeat;  
+    background-attachment: scroll;  
+    background-position: 0% 0%;
+    background-size: cover;
 } 
+ #random-image 
+ {
+    margin: 10px;
+ }
+ .hide
+ {
+ display: none;
+ }
+ #timer
+ {
+    font-size: 58px;
+    font-weight: bold;
+ }
+#timer-text
+{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
