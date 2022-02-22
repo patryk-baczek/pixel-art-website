@@ -64,7 +64,17 @@
     height: 150px;
     font-size: 18px;
 }
-
+#content-author 
+{
+    background-color: rgb(14, 71, 71);
+    color: white;
+    padding: 10px;
+    float: left;
+    width: 855px;
+    height: 400px;
+    font-size: 18px;
+}
+}
 #footer
 {
     background-color:rgb(7, 23, 23);
@@ -206,4 +216,34 @@ a, a:visited {
     font-size: 24px;
     font-weight: bold;
     text-transform: capitalize;
+}
+#author-presentation-image
+{
+    float: left;
+    width:390px;
+    margin-top: 50px;
+}
+#author-presentation-texts
+{
+    float: left;
+    width: 437.5px;
+    padding: 10px;
+}
+.author-image
+{
+    border-radius: 100%;
+}
+.go-to-gallery
+{
+    background-color: black;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    border:solid 2px white;
+   
+}
+.go-to-gallery:hover
+{
+    cursor: pointer;
 }
