@@ -74,9 +74,10 @@
     height: 400px;
     font-size: 18px;
 }
-}
+
 #footer
 {
+    height: 190px;
     background-color:rgb(7, 23, 23);
     color: white;
     padding: 10px;
@@ -244,6 +245,45 @@ a, a:visited {
    
 }
 .go-to-gallery:hover
+{
+    cursor: pointer;
+}
+
+#footer-image
+{
+    float: left;
+    width: 245px;
+    height: 190px;}
+
+#quick-links
+{
+    float: left;
+    width: 245px;
+    height: 190px;
+}
+
+#legal-stuff
+{
+    float: left;
+    width: 245px;
+    height: 190px;
+}
+
+#social-media
+{
+    float: left;
+    width: 245px;
+    height: 190px;}
+
+.empty
+{
+    clear: both;
+}
+.footer-link
+{
+    text-transform: capitalize;
+}
+.footer-link:hover
 {
     cursor: pointer;
 }

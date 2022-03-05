@@ -1,43 +1,78 @@
 <!DOCTYPE html>
 
 <html lang=en>
-<head>
-<meta charset="utf_8"/>
-<title>Pixel art - lottery </title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome,opera gx,fire fox=1" />
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-<link href="style.css" rel="stylesheet">
 
 <head>
-<body>
-<div id="container">
-    <div id="logo">
-        <div id="logo-image"></div>
-        <div id="logo-text">
-            <h1> <i class="fas fa-star-half-alt"></i> my pixel art <i class="fas fa-star-half-alt"></i>     
-            
+    <meta charset="utf_8" />
+    <title>Pixel art - lottery </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome,opera gx,fire fox=1" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <head>
+
+    <body>
+        <div id="container">
+            <a href="index.html">
+                <div id="logo">
+                    <div id="logo-image"></div>
+                    <div id="logo-text">
+                        <h1> <i class="fas fa-star-half-alt"></i> my pixel art <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <div id="nav">
+                <a class="nav-link" href="contact.html">
+                    <i class="fas fa-arrow-circle-right"></i> contact
+                </a><br />
+                <a class="nav-link" href="about-author.html">
+                    <i class="fas fa-arrow-circle-right"></i> about author
+                </a>
+                <a class="nav-link" href="lottery.html">
+                    <i class="fas fa-arrow-circle-right"></i> lottery
+                </a>
+                <br />
+                <hr />
+                <i class="fas fa-arrow-circle-right"></i> Landscapes<br />
+                <i class="fas fa-arrow-circle-right"></i> Memes<br />
+            </div>
+
+            <div id="lottery-content">
+                <div id="timer-text" class="hide">a picture has been drawn, wait until the countdown has finished to
+                    draw again!!!</div>
+                <div id="timer" class="hide">00:00:00</div>
+                <div id="chest" class="hide"></div>
+                <div id="random-image"></div>
+            </div>
+            <div id="footer">
+                <div id="footer-image"><img width="150" height="150" src="/img/komenda.png" /></div>
+                <div id="quick-links">
+                    <h3>Quick Links</h3>
+                    <p>contact with me</p>
+                    <p>join to our community</p>
+                    <p>look at my profile</p>
+                </div>
+                <div id="legal-stuff">
+                    <h3>Legal Stuff</h3>
+                    <p>cookie policy</p>
+                </div>
+                <div id="social-media">
+                    <h3>Social Media</h3>
+                    <p><a class="footer-link" href="https://github.com/patryk-baczek/pixel-art-website"><i
+                                class="fab fa-github"></i> github</a></p>
+                    <p><a class="footer-link" href="https://pl.linkedin.com/in/kamilbaczek"><i
+                                class="fab fa-linkedin"></i> linkedin</a></p>
+                    <p><a class="footer-link" href="https://www.facebook.com/patryk.baczek.961/"><i
+                                class="fab fa-facebook"></i> facebook</a></p>
+                </div>
+                <div class="empty"></div>
+
+            </div>
+
         </div>
-    </div>
-    
-    <div id="nav">
-        <i class="fas fa-arrow-circle-right"></i> about author<br />
-        <hr />
-        <i class="fas fa-arrow-circle-right"></i> Landscapes<br />
-        <i class="fas fa-arrow-circle-right"></i> Memes<br />
-    </div>
-    
-    <div id="lottery-content">
-        <div id="timer-text" class="hide" >a picture has been drawn, wait until the countdown has finished to draw again!!!</div>
-       <div id="timer" class="hide">00:00:00</div>
-       <div id="chest" class="hide"></div>
-       <div id="random-image"></div>
-    </div>
-    <div id="footer">
-        &#169; Patryk Bączek 2022
-    </div>
-    
-</div>
-<script src="js/lottery.js"></script>
-</body>
+        <script src="js/lottery.js"></script>
+    </body>
+
 </html>
