@@ -10,7 +10,9 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
     <link href="style.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+   
     <head>
 
     <body>
@@ -41,6 +43,15 @@
             </div>
 
             <div id="content">
+                <h1 class="gallery-header">recent images</h1>
+                <div class="gallery-slider">
+                    <div><img src="img/statki_kosmiczne.png" alt=""></div>
+                    <div><img src="img/png.png" alt=""></div>
+                    <div><img src="img/diabelek.png" alt=""></div>
+                    <div><img src="img/strona1.png" alt=""></div>
+                    <div><img src="img/abstrakcja.png" alt=""></div>
+                    <div><img src="img/boss.png" alt=""></div>
+                  </div>
                 Pixel art is a form of digital art, created through the use of software, where images are edited on the
                 pixel level. The aesthetic for this kind of graphics comes from 8-bit and 16-bit computers and video
                 game consoles, in addition to other limited systems such as graphing calculators. In most pixel art, the
@@ -71,7 +82,7 @@
 
                 <div class="pixel-card">
                     <div class="pixel-image" id="image3"></div>
-                    <a href="img/strona1.png" download="fellow.png">
+                    <a href="img/boss.png" download="fellow.png">
                         <div class="pixel-text"><i class="fas fa-save"></i> fellow.png</div>
                     </a>
                 </div>
@@ -96,12 +107,8 @@
                     <a href="img/strona1.png" download="guy.png">
                         <div class="pixel-text"><i class="fas fa-save"></i> guy.png</div>
                     </a>
+                    
                 </div>
-
-
-
-
-
             </div>
 
             <div id="footer">
@@ -130,6 +137,8 @@
             </div>
 
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+        <script src="js/gallery.js"></script>
     </body>
 
 </html>

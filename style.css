@@ -41,7 +41,7 @@
    padding: 10px;
    float: left;
    width: 105px;
-   height: 150px;
+   height: 400px;
    text-transform: capitalize;
 }
 #lottery-content
@@ -61,7 +61,7 @@
     padding: 10px;
     float: left;
     width: 855px;
-    height: 150px;
+    height: 400px;
     font-size: 18px;
 }
 #content-author 
@@ -286,4 +286,12 @@ a, a:visited {
 .footer-link:hover
 {
     cursor: pointer;
+}
+.gallery-header
+{
+    text-transform: uppercase;
+}
+.gallery-slider
+{
+    margin-bottom: 15px;
 }
