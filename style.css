@@ -1,301 +1,296 @@
-
-    
-#container
-{   background-color: rgb(0, 0, 0);
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-#logo
-{
-    width: 1000px;
-    height: 150px;
-    margin-right: auto;
-    margin-left: auto; 
-    display: flex ;
-}
-
-#logo-image
-{
-    background-image: url("img/komenda.png");
-    background-repeat: no-repeat;  
-    background-attachment: scroll;  
-    background-position: 0% 0%;
-    background-size: contain;
-    width: 260px;
-    height: 130px;
-}
-
-#logo-text
-{
-    padding: 13px;
-    color: #FF8F00;    
-    font-size: 28px;
-    text-transform: uppercase;
-}
-
-#nav
-{
-    color: white;
-    background-color: rgb(6, 25, 25);
-   padding: 10px;
-   float: left;
-   width: 105px;
-   height: 400px;
-   text-transform: capitalize;
-}
-#lottery-content
-{
-    background-color: rgb(14, 71, 71);
-    color: white;
-    padding: 10px;
-    float: left;
-    width: 855px;
-    height: 350px;
-    font-size: 18px;
-}
-#content
-{
-    background-color: rgb(14, 71, 71);
-    color: white;
-    padding: 10px;
-    float: left;
-    width: 855px;
-    height: 400px;
-    font-size: 18px;
-}
-#content-author 
-{
-    background-color: rgb(14, 71, 71);
-    color: white;
-    padding: 10px;
-    float: left;
-    width: 855px;
-    height: 400px;
-    font-size: 18px;
-}
-
-#footer
-{
-    height: 190px;
-    background-color:rgb(7, 23, 23);
-    color: white;
-    padding: 10px;
-    text-align: center;
-    clear:both;
-}
-
-.pixel-image
-{ 
-    background-repeat: no-repeat;  
-    background-attachment: scroll;  
-    background-position: 0% 0%;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    width: 100%; 
-      height: 150px;
-      
-}   
-.pixel-card
-{
-      width: 33.333333333333333%; 
-      height: auto;
-      float: left;
-      transition: all .1s ease-in-out;
-      cursor: pointer;
-}
-.pixel-card:hover
-{
-    transform: scale(1.1);   
-}
-.pixel-text
-{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    background-color: black;
-    padding: 10px;
-    text-transform: uppercase;
-    transition: background 200ms;
-}
-.pixel-text:hover
-{
-    background-color: rgb(255, 255, 255);
-    color: black;
-    cursor: pointer;
-}
-
-.icon-gold 
-{
-    color: rgb(216, 185, 45);        
-}
-
-#pixel-gallery
-{
-    clear:both;
-    background-color: white;
-    height: 350px;
-}  
- #image1
- {
-    background-color: #1414ae;
-    background-image: url("img/statki_kosmiczne.png");
- }
-
- #image2
- {
-    background-color: #49a444;
-    background-image: url("img/png.png");
- }
- #image3
- {
-    background-color: #9714ae;
-    background-image: url("img/boss.png");
- }
-
- #image4
- {
-    background-color: #010131;
-    background-image: url("img/abstrakcja.png");
- }
-
- #image5
- {
-  background-color: #010131;
-  background-image: url("img/diabelek.png");
- }
- #image6
- {
-  background-color: #143b3d;
-  background-image: url("img/strona1.png");
- }
- 
- body
- {
-    font-family: 'VT323', monospace;
-    
- }
-a 
-{
-
- text-decoration: none;   
-}
-a, a:visited {
-    color: inherit;
-}
-.nav-link
-{
-    cursor: pointer; 
-}
-#chest
-{
-    width: 140px;
-    height: 160px;
-    cursor: pointer;
-    
-    background-image: url('img/chest.png');
-    background-repeat: no-repeat;  
-    background-attachment: scroll;  
-    background-position: 0% 0%;
-    background-size: cover;
-} 
- #random-image 
- {
-    margin: 10px;
- }
- .hide
- {
- display: none;
- }
- #timer
- {
-    font-size: 58px;
-    font-weight: bold;
- }
-#timer-text
-{
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-#author-presentation-image
-{
-    float: left;
-    width:390px;
-    margin-top: 50px;
-}
-#author-presentation-texts
-{
-    float: left;
-    width: 437.5px;
-    padding: 10px;
-}
-.author-image
-{
-    border-radius: 100%;
-}
-.go-to-gallery
-{
-    background-color: black;
-    color: #ffffff;
-    text-transform: uppercase;
-    padding: 10px;
-    border-radius: 5px;
-    border:solid 2px white;
-   
-}
-.go-to-gallery:hover
-{
-    cursor: pointer;
-}
-
-#footer-image
-{
-    float: left;
-    width: 245px;
-    height: 190px;}
-
-#quick-links
-{
-    float: left;
-    width: 245px;
-    height: 190px;
-}
-
-#legal-stuff
-{
-    float: left;
-    width: 245px;
-    height: 190px;
-}
-
-#social-media
-{
-    float: left;
-    width: 245px;
-    height: 190px;}
-
-.empty
-{
-    clear: both;
-}
-.footer-link
-{
-    text-transform: capitalize;
-}
-.footer-link:hover
-{
-    cursor: pointer;
-}
-.gallery-header
-{
-    text-transform: uppercase;
-}
-.gallery-slider
-{
-    margin-bottom: 15px;
-}
-.input-contact
-{
-    border-radius:2px;
-}
+                            #container {
+                                background-color: rgb(0, 0, 0);
+                                width: 1000px;
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
+                            
+                            #logo {
+                                width: 1000px;
+                                height: 150px;
+                                margin-right: auto;
+                                margin-left: auto;
+                                display: flex;
+                            }
+                            
+                            #logo-image {
+                                background-image: url("img/komenda.png");
+                                background-repeat: no-repeat;
+                                background-attachment: scroll;
+                                background-position: 0% 0%;
+                                background-size: contain;
+                                width: 260px;
+                                height: 130px;
+                            }
+                            
+                            #logo-text {
+                                padding: 13px;
+                                color: #FF8F00;
+                                font-size: 28px;
+                                text-transform: uppercase;
+                            }
+                            
+                            #nav {
+                                color: white;
+                                background-color: rgb(6, 25, 25);
+                                padding: 10px;
+                                float: left;
+                                width: 105px;
+                                height: 400px;
+                                text-transform: capitalize;
+                            }
+                            
+                            #lottery-content {
+                                background-color: rgb(14, 71, 71);
+                                color: white;
+                                padding: 10px;
+                                float: left;
+                                width: 855px;
+                                height: 350px;
+                                font-size: 18px;
+                            }
+                            
+                            #content {
+                                background-color: rgb(14, 71, 71);
+                                color: white;
+                                padding: 10px;
+                                float: left;
+                                width: 855px;
+                                height: 400px;
+                                font-size: 18px;
+                            }
+                            
+                            #content-author {
+                                background-color: rgb(14, 71, 71);
+                                color: white;
+                                padding: 10px;
+                                float: left;
+                                width: 855px;
+                                height: 400px;
+                                font-size: 18px;
+                            }
+                            
+                            #footer {
+                                height: 190px;
+                                background-color: rgb(7, 23, 23);
+                                color: white;
+                                padding: 10px;
+                                text-align: center;
+                                clear: both;
+                            }
+                            
+                            .pixel-image {
+                                background-repeat: no-repeat;
+                                background-attachment: scroll;
+                                background-position: 0% 0%;
+                                background-size: cover;
+                                text-align: center;
+                                color: white;
+                                width: 100%;
+                                height: 150px;
+                            }
+                            
+                            .pixel-card {
+                                width: 33.333333333333333%;
+                                height: auto;
+                                float: left;
+                                transition: all .1s ease-in-out;
+                                cursor: pointer;
+                            }
+                            
+                            .pixel-card:hover {
+                                transform: scale(1.1);
+                            }
+                            
+                            .pixel-text {
+                                text-align: center;
+                                color: rgb(255, 255, 255);
+                                background-color: black;
+                                padding: 10px;
+                                text-transform: uppercase;
+                                transition: background 200ms;
+                            }
+                            
+                            .pixel-text:hover {
+                                background-color: rgb(255, 255, 255);
+                                color: black;
+                                cursor: pointer;
+                            }
+                            
+                            .icon-gold {
+                                color: rgb(216, 185, 45);
+                            }
+                            
+                            #pixel-gallery {
+                                clear: both;
+                                background-color: white;
+                                height: 350px;
+                            }
+                            
+                            #image1 {
+                                background-color: #1414ae;
+                                background-image: url("img/statki_kosmiczne.png");
+                            }
+                            
+                            #image2 {
+                                background-color: #49a444;
+                                background-image: url("img/png.png");
+                            }
+                            
+                            #image3 {
+                                background-color: #9714ae;
+                                background-image: url("img/boss.png");
+                            }
+                            
+                            #image4 {
+                                background-color: #010131;
+                                background-image: url("img/abstrakcja.png");
+                            }
+                            
+                            #image5 {
+                                background-color: #010131;
+                                background-image: url("img/diabelek.png");
+                            }
+                            
+                            #image6 {
+                                background-color: #143b3d;
+                                background-image: url("img/strona1.png");
+                            }
+                            
+                            body {
+                                font-family: 'VT323', monospace;
+                            }
+                            
+                            a {
+                                text-decoration: none;
+                            }
+                            
+                            a,
+                            a:visited {
+                                color: inherit;
+                            }
+                            
+                            .nav-link {
+                                cursor: pointer;
+                            }
+                            
+                            #chest {
+                                width: 140px;
+                                height: 160px;
+                                cursor: pointer;
+                                background-image: url('img/chest.png');
+                                background-repeat: no-repeat;
+                                background-attachment: scroll;
+                                background-position: 0% 0%;
+                                background-size: cover;
+                            }
+                            
+                            #random-image {
+                                margin: 10px;
+                            }
+                            
+                            .hide {
+                                display: none;
+                            }
+                            
+                            #timer {
+                                font-size: 58px;
+                                font-weight: bold;
+                            }
+                            
+                            #timer-text {
+                                font-size: 24px;
+                                font-weight: bold;
+                                text-transform: capitalize;
+                            }
+                            
+                            #author-presentation-image {
+                                float: left;
+                                width: 390px;
+                                margin-top: 50px;
+                            }
+                            
+                            #author-presentation-texts {
+                                float: left;
+                                width: 437.5px;
+                                padding: 10px;
+                            }
+                            
+                            .author-image {
+                                border-radius: 100%;
+                            }
+                            
+                            .go-to-gallery {
+                                background-color: black;
+                                color: #ffffff;
+                                text-transform: uppercase;
+                                padding: 10px;
+                                border-radius: 5px;
+                                border: solid 2px white;
+                            }
+                            
+                            .go-to-gallery:hover {
+                                cursor: pointer;
+                            }
+                            
+                            #footer-image {
+                                float: left;
+                                width: 245px;
+                                height: 190px;
+                            }
+                            
+                            #quick-links {
+                                float: left;
+                                width: 245px;
+                                height: 190px;
+                            }
+                            
+                            #legal-stuff {
+                                float: left;
+                                width: 245px;
+                                height: 190px;
+                            }
+                            
+                            #social-media {
+                                float: left;
+                                width: 245px;
+                                height: 190px;
+                            }
+                            
+                            .empty {
+                                clear: both;
+                            }
+                            
+                            .footer-link {
+                                text-transform: capitalize;
+                            }
+                            
+                            .footer-link:hover {
+                                cursor: pointer;
+                            }
+                            
+                            .gallery-header {
+                                text-transform: uppercase;
+                            }
+                            
+                            .gallery-slider {
+                                margin-bottom: 15px;
+                            }
+                            
+                            .form-group {
+                                float: left;
+                            }
+                            
+                            .rounded {
+                                border-radius: 5px;
+                            }
+                            
+                            .form-label {
+                                text-transform: capitalize;
+                            }
+                            
+                            .form-input {
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                margin-right: 10px;
+                            }
