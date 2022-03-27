@@ -46,7 +46,7 @@
                                 padding: 10px;
                                 float: left;
                                 width: 855px;
-                                height: 350px;
+                                height: 400px;
                                 font-size: 18px;
                             }
                             
@@ -256,7 +256,15 @@
                                 width: 245px;
                                 height: 190px;
                             }
-                            
+                            #quiz-content {
+                                background-color: rgb(14, 71, 71);
+                                color: white;
+                                padding: 10px;
+                                float: left;
+                                width: 855px;
+                                height: 400px;
+                                font-size: 18px;
+                            }
                             .empty {
                                 clear: both;
                             }
@@ -293,4 +301,23 @@
                                 margin-top: 10px;
                                 margin-bottom: 10px;
                                 margin-right: 10px;
+                            }
+                            .failed{
+                                color: red;
+                                margin-top: 10px;
+                                text-transform: capitalize;
+                            }
+                            .failed-label{
+                                color: red;
+                            }
+                            .success{
+                                color: greenyellow;
+                                margin-top: 10px;
+                                text-transform: capitalize;
+                            }
+                            .success-label{
+                                color: greenyellow;
+                            }
+                            .check-button{
+                                margin-top: 5px;
                             }

@@ -32,23 +32,46 @@
                 </a>
                 <a class="nav-link" href="lottery.html">
                     <i class="fas fa-arrow-circle-right"></i> lottery
-             
-                    </a><br />   
-                     <a class="nav-link" href="quiz.html">
-                        <i class="fas fa-arrow-circle-right"></i> quiz 
-                    </a>
-                    <br />
-                    <hr />
-                    <i class="fas fa-arrow-circle-right"></i> Landscapes<br />
-                    <i class="fas fa-arrow-circle-right"></i> Memes<br />
+
+                </a><br />
+                <a class="nav-link" href="quiz.html">
+                    <i class="fas fa-arrow-circle-right"></i> quiz
+                </a>
+                <br />
+                <hr />
+                <i class="fas fa-arrow-circle-right"></i> Landscapes<br />
+                <i class="fas fa-arrow-circle-right"></i> Memes<br />
             </div>
 
-            <div id="lottery-content">
-                <div id="timer-text" class="hide">a picture has been drawn, wait until the countdown has finished to
-                    draw again!!!</div>
-                <div id="timer" class="hide">00:00:00</div>
-                <div id="chest" class="hide"></div>
-                <div id="random-image"></div>
+            <div id="quiz-content">
+                <div class="question">
+                    <h3>1. What is on image?</h3>
+                    <h4>level: very easy</h4>
+                    <img src="/img/boss.png">
+                    <form name="form-question-1">
+                        <div>
+                            <input type="radio" id="answer-a" name="question-1" value="boss">
+                            <label id="label-answer-a" for="answer-a">boss</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="answer-b" name="question-1" value="fellow">
+                            <label id="label-answer-b" for="answer-b">fellow</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="answer-c" name="question-1" value="abstraction">
+                            <label id="label-answer-c" for="answer-c">abstraction</label>
+                        </div>
+           
+                        <div class="success hide"><i class="fas fa-check-square"></i> correct</div>
+                        <div class="failed hide"><i class="fas fa-minus-square"></i> incorrect</div>
+                        <div>
+                            <button type="button" class="check-button" onclick="checkAnswer()">Check</button>
+                        </div>
+                    </form>
+
+                </div>
             </div>
             <div id="footer">
                 <div id="footer-image"><img width="150" height="150" src="/img/komenda.png" /></div>
@@ -76,7 +99,7 @@
             </div>
 
         </div>
-        <script src="js/lottery.js"></script>
+        <script src="js/quiz.js"></script>
     </body>
 
 </html>
